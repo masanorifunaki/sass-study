@@ -1,0 +1,83 @@
+body {
+  min-width: 460px;
+  text-align: center;
+  background-color: #f0f5fc; }
+
+.profile-img {
+  max-width: 100px;
+  max-height: 100px; }
+
+.profile {
+  padding: 56px 0;
+  margin: 0 auto;
+  background-color: #ffffff; }
+  .profile .info {
+    margin-top: 16px; }
+    .profile .info p {
+      color: #2b546a; }
+
+.card1 {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #1bd7cf; }
+  .card1 img {
+    margin: 16px auto 20px;
+    display: block; }
+  .card1 a {
+    padding: 16px 32px;
+    background-color: #ffffff;
+    border-radius: 26px;
+    display: inline-block;
+    color: #1bd7cf;
+    text-decoration: none; }
+    .card1 a:hover {
+      color: #ffffff;
+      background-color: #15aaa3; }
+  .card1 h4 {
+    color: #107c78; }
+
+.card2 {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #0e6862; }
+  .card2 img {
+    margin: 16px auto 20px;
+    display: block; }
+  .card2 a {
+    padding: 16px 32px;
+    background-color: #ffffff;
+    border-radius: 26px;
+    display: inline-block;
+    color: #0e6862;
+    text-decoration: none; }
+    .card2 a:hover {
+      color: #ffffff;
+      background-color: #083b38; }
+  .card2 h4 {
+    color: #020e0d; }
+
+.card3 {
+  padding: 40px 28px;
+  margin: 16px 8px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #2b37db; }
+  .card3 img {
+    margin: 16px auto 20px;
+    display: block; }
+  .card3 a {
+    padding: 16px 32px;
+    background-color: #ffffff;
+    border-radius: 26px;
+    display: inline-block;
+    color: #2b37db;
+    text-decoration: none; }
+    .card3 a:hover {
+      color: #ffffff;
+      background-color: #1f29b4; }
+  .card3 h4 {
+    color: #171f89; }

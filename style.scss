@@ -1,4 +1,7 @@
+@import "variables";
 $sacc-color: #f567ae;
+$blue: #0ac4ff;
+$pink: #fd6eb6;
 @mixin circle($color) {
   display: inline-block;
   border-radius: 50%;
@@ -22,6 +25,36 @@ $sacc-color: #f567ae;
   }
 }
 
+.btn {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  height: 64px;
+  width: 64px;
+  color: #ffffff;
+  font-size: 32px;
+  box-shadow: 1px 2px 6px rgba(106, 137, 152, 0.3);
+}
+
+.twitter {
+  background-color: $twitter;
+  &:hover {
+    background-color: rgba($twitter, 0.5);
+  }
+}
+
+.facebook {
+  background-color: $facebook;
+  &:hover {
+    background-color: rgba($facebook, 0.5);
+  }
+}
+
+.fab {
+  line-height: 64px;
+}
+
 .button {
   display: block;
   padding: 8px 24px;
@@ -42,13 +75,35 @@ $sacc-color: #f567ae;
 }
 
 li {
-  list-style: decimal;
-  margin-left: 22px;
-  color: #b5afaf;
-  line-height: 26px;
-  &.second {
-    color: $sacc-color;
-  }
+  list-style: none;
+  float: left;
+  height: 100px;
+  width: 33%;
+  margin-bottom: 10px;
+}
+
+.blue1 {
+  background-color: $blue;
+}
+
+.blue2 {
+  background-color: darken($blue, 20%);
+}
+
+.blue3 {
+  background-color: rgba($blue, 0.5);
+}
+
+.pink1 {
+  background-color: $pink;
+}
+
+.pink2 {
+  background-color: lighten($pink, 10%);
+}
+
+.pink3 {
+  background-color: lighten($pink, 20%);
 }
 
 .small {

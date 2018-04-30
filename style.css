@@ -10,6 +10,30 @@
     color: #efefef;
     font-size: 16px; }
 
+.btn {
+  display: inline-block;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  height: 64px;
+  width: 64px;
+  color: #ffffff;
+  font-size: 32px;
+  box-shadow: 1px 2px 6px rgba(106, 137, 152, 0.3); }
+
+.twitter {
+  background-color: #1dcaff; }
+  .twitter:hover {
+    background-color: rgba(29, 202, 255, 0.5); }
+
+.facebook {
+  background-color: #405f9e; }
+  .facebook:hover {
+    background-color: rgba(64, 95, 158, 0.5); }
+
+.fab {
+  line-height: 64px; }
+
 .button {
   display: block;
   padding: 8px 24px;
@@ -27,12 +51,29 @@
     box-shadow: none; }
 
 li {
-  list-style: decimal;
-  margin-left: 22px;
-  color: #b5afaf;
-  line-height: 26px; }
-  li.second {
-    color: #f567ae; }
+  list-style: none;
+  float: left;
+  height: 100px;
+  width: 33%;
+  margin-bottom: 10px; }
+
+.blue1 {
+  background-color: #0ac4ff; }
+
+.blue2 {
+  background-color: #007ca3; }
+
+.blue3 {
+  background-color: rgba(10, 196, 255, 0.5); }
+
+.pink1 {
+  background-color: #fd6eb6; }
+
+.pink2 {
+  background-color: #fea0cf; }
+
+.pink3 {
+  background-color: #fed3e9; }
 
 .small {
   display: inline-block;
